@@ -1,28 +1,30 @@
 game.resources = [
+    /* Graphics. 
+     * @example
+     * {name: "example", type:"image", src: "data/img/example.png"},
+     */
+    {name: "background-tiles", type: "image", src: "data/img/background-tiles.png"}
 
-	/* Graphics. 
-	 * @example
-	 * {name: "example", type:"image", src: "data/img/example.png"},
-	 */
+    /* Atlases 
+     * @example
+     * {name: "example_tps", type: "tps", src: "data/img/example_tps.json"},
+     */
 
-	/* Atlases 
-	 * @example
-	 * {name: "example_tps", type: "tps", src: "data/img/example_tps.json"},
-	 */
-		
-	/* Maps. 
-	 * @example
-	 * {name: "example01", type: "tmx", src: "data/map/example01.tmx"},
-	 * {name: "example01", type: "tmx", src: "data/map/example01.json"},
- 	 */
 
-	/* Background music. 
-	 * @example
-	 * {name: "example_bgm", type: "audio", src: "data/bgm/"},
-	 */	
+    /* Maps. 
+     * @example
+     * {name: "example01", type: "tmx", src: "data/map/example01.tmx"},
+     * {name: "example01", type: "tmx", src: "data/map/example01.json"},
+     */
+    {name: "JasonBlevel", type: "tmx", src: "data/map/JasonBlevel1.tmx"}
 
-	/* Sound effects. 
-	 * @example
-	 * {name: "example_sfx", type: "audio", src: "data/sfx/"}
-	 */
+    /* Background music. 
+     * @example
+     * {name: "example_bgm", type: "audio", src: "data/bgm/"},
+     */
+
+    /* Sound effects. 
+     * @example
+     * {name: "example_sfx", type: "audio", src: "data/sfx/"}
+     */
 ];
