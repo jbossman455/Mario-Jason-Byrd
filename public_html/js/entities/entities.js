@@ -67,7 +67,8 @@ game.LevelTrigger = me.Entity.extend({
      
     onCollision: function (){
     this.body.setCollisionMask(me.collision.types.N0_OBJECT); 
-    me.LevelDirector.loadLevel,(this.level);
+    //me.levelDirector.loadLevel("JasonBlevel02");
+    me.levelDirector.loadLevel(this.level);
     me.state.current().resetPlayer(this.xSpawn, this.ySpawn);
     }
     
