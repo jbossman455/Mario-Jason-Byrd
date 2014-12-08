@@ -6,6 +6,15 @@ game.TitleScreen = me.ScreenObject.extend({
         var titleImage = new me.Sprite(0, 0, me.loader.getImage("title-screen"));
         me.game.world.addChild(titleImage, 1);
         me.input.bindKey(me.input.KEY.ENTER, "start");
+   
+        me.game.world.addChild(new.(me.Renderable.extend({
+            init: fucntion () {
+                this._super(me.Renderable, "init", [510, 30])
+            },
+            
+            draw: function
+            
+        })))
 
 
         this.handler = me.event.subscribe(me.event.KEYDOWN, function(action, keyCode, edge) {
